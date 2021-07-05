@@ -17,6 +17,7 @@ const Mesa = ({nombre, numero}) => {
     const handleModificar = (nom) => {
         setCliente(nom)
     }
+    
     const handleEliminar = ()=>{
         let newClientes = clientes;
         newClientes[numero -1] = '';

@@ -1,7 +1,7 @@
 
 import './App.css';
 import Barra from './components/Barra';
-import Layout from './components/Layout';
+// import Layout from './components/Layout';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Index from './components/Index.js'
 import Login from './components/Login.js'

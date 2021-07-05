@@ -26,11 +26,7 @@ const MesasDisponibles = () => {
     }
     return (
         <div>
-            {/* {mesas} */}
-            {mesas ===1 && renderMesas(1)}
-            {mesas ===2 && renderMesas(2)}
-            {mesas ===3 && renderMesas(3)}
-            {/* <h2>{clientes}</h2> */}
+            {renderMesas(mesas)}
         </div>
     )
 }
